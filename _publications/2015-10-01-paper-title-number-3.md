@@ -3,7 +3,6 @@ title: "Incorporating human mobility to enhance epidemic response and estimate r
 collection: publications
 category: research article
 permalink: /publication/Incorporating human mobility to enhance epidemic response and estimate real-time reproduction numbers
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
 date: 2025
 venue: medRxiv
 paperurl: 'https://www.medrxiv.org/content/10.1101/2025.04.25.25326411v1'
