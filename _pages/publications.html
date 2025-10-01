@@ -9,15 +9,25 @@ author_profile: true
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-<ul>
+<ul class='pub-list">
   {% assign pubs = site.publications | sort: "date" | reverse %}
   {% for p in pubs %}
-    <li>
+    <li class="pub-item" style="margin-bottom:1rem;">
+      <strong>
       {% if p.paperurl %}
-        <a href="{{p.paperurl}}">{{ p.citation}}</a>
+        <a href="{{p.paperurl}}">{{ p.title}}</a>
       {% else %}
-       {{ p.citation }}
+       {{ p.title }}
       {% endif %}
+      </strong><br/>
+  {{p.citation}}
+  <div class="pub-links">
+    {% if p.paperurl %}<a href="{{ p.paperurl }}">Paper</a>{% endif %}
+        {% if p.code or p.github %}
+          {% if p.paperurl %} · {% endif %}
+          <a href="{{ p.code | default: p.github }}">Code</a>
+        {% endif %}
+      </div>
     </li>
   {% endfor %}
 </ul>
