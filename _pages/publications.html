@@ -13,15 +13,18 @@ author_profile: true
 
 {% comment %}
 <sup>*</sup> indicates that authors made equal contributions
-{% endcomment %}
+
 
 # Peer-reviewed papers
+{% endcomment %}
 
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
 {% endfor %}
 
+{% comment %}
 # Preprints
+{% endcomment %}
 
 {% for post in site.preprints reversed %}
   {% include archive-single.html %}
