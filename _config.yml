@@ -23,7 +23,7 @@ repository               : "academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "pic_mousumi.jpeg"
+  avatar           : "pic_mousumi.jpg"
   name             : "Mousumi Roy"
   pronouns         : # example: "she/her"  
   bio              : "Reseasrch Fellow at Saw Swee Hock School of public Health, NUS"
