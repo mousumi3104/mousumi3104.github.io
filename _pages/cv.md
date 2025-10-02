@@ -8,12 +8,13 @@ redirect_from:
 ---
 
 {% include base_path %}
+<a class="btn btn--primary" href="/files/Mousumi Roy - Resume.pdf">Download full CV (PDF)</a>
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* Ph.D in Applied mathematics, University of Calcutta, 2022
+* M.Sc. in Applied Mathematics, University of Calcutta, 2014
+* B.Sc. in Mathematics, Bethune College, University of Calcutta, 2012
 
 Work experience
 ======
