@@ -4,7 +4,7 @@ collection: talks
 type: "Talk"
 permalink: /talks/MIDSEA
 venue: "UC San Francisco, Department of Testing"
-date: 2024
+date: 2024-01-01
 location: "Quy Nhon, Vietnam"
 ---
 
