@@ -11,13 +11,8 @@ author_profile: true
 
 {% endif %}
 
-<h2>Invited talks</h2>
+<h2>Talks</h2>
 {% for post in site.invitedtalks reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
-
-<h2>Contributed talks</h2>
-{% for post in site.talks reversed %}
   {% include archive-single-talk.html %}
 {% endfor %}
 
